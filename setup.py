@@ -30,13 +30,13 @@ def keysave(key):
 
 global responselabel
 main = customtkinter.CTk()
-main.title("BlockSage - Setup")
+main.title("CryptoSage - Setup")
 main.geometry("400x300")
 main.resizable(False, False)
 main.iconbitmap("images/logo.ico")
 
 
-header = customtkinter.CTkLabel(main, text="BlockSage - setup", font=("roboto", 24, "bold"))
+header = customtkinter.CTkLabel(main, text="CryptoSage - setup", font=("roboto", 24, "bold"))
 header.place(relx=.5, rely=.05, anchor="center")
 subheader = customtkinter.CTkLabel(main, text="By: @80dropz", font=("roboto", 16, "bold"))
 subheader.place(relx=.5, rely=.14, anchor="center")
